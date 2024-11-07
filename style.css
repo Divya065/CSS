@@ -56,3 +56,6 @@ p:last-of-type{
 h2:last-of-type{
     background: yellow;
 }
+input:in-range{
+    border: 1px solid blue;
+}
