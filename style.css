@@ -17,6 +17,42 @@ a[target="_parent"]{
 body{
     color: purple;
 }
-div{
-    
+.class6>.class7{
+    font-size: xx-large;
+}
+div[data-color]{
+    color:red
+}
+[class*="foo"]{
+    color:red
+}
+[calss~="color-red"]{
+    color:red
+}
+[class^="foo-"]{
+    color:red
+}
+[class$="file"]{
+    color:red
+}
+div span{
+    color:green
+}
+div>span{
+    color:rgb(131, 80, 80)
+}
+.clas~div{
+    color: aqua;
+}
+.warning{
+    color:black
+}
+.important{
+    color: brown;
+}
+p:last-of-type{
+    background-color: green;
+}
+h2:last-of-type{
+    background: yellow;
 }
