@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* ustify-cjontent: space-evenly;     for row */
+    background-color: purple;
+    /* align-items: center; for column
+    align-content: center; for column */
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.item{
+    margin: 0px;
+    padding: 0px;
+    border: solid green;
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+    flex-basis: content;
+}
+#sub{
+    flex-shrink: 2;
+}
