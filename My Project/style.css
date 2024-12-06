@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
 }
 .c1 nav{
     height: 10%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(3, 3, 20);
+    background-color: rgb(2, 2, 14);
     justify-content: flex-start;
     gap: 2px;
 }
@@ -24,6 +25,10 @@
     font-size: small;
     justify-content: center;
 }
+#six{
+    display: flex;
+    justify-content: left;
+}
 #one img{
     height: 18px;
     width: 80px;
@@ -37,19 +42,22 @@
     width: 110px;
     padding: 3px;
     font-size: smaller;
-    background-color: rgb(19, 116, 207);
-    border-radius: 10px;
+    background-color: rgb(27, 128, 223);
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
 }
-.c1 nav .item:hover{
+.class:hover{
+    background-color: rgb(51, 152, 247);
+}
+/* .c1 nav .item:hover{
     background-color: white;
     color: black;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 a{
     color: white;
     font-size: small;
@@ -61,13 +69,11 @@ a{
     margin: 0px;
     padding: 0px;
     display: flex;
-
-    background-color: green;
 }
 .child{
     margin: 0px;
     padding: 0px;
-    height: 1000px;
+    height: 900px;
     width: 50%;
     background-color: black;
     color: white;
@@ -81,21 +87,21 @@ a{
     position: absolute;
     left: 5%;
     top: 20%;
-    font-size: 54px;
+    font-size: 50px;
 }
 .c2 .child p{
     position: absolute;
     left: 5%;
     top: 35%;
-    font-size: x-large;
+    font-size: 21px;
 }
 .c2 .child span{
     position: absolute;
     left: 5%;
     top: 40%;
-    font-size: x-large;
+    font-size: 21px;
 }
-.c2 .child .sign{
+.c2 .child a{
     margin: 0px;
     padding: 0px;
     height: 60px;
@@ -111,37 +117,223 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+.c2 .child a:hover{
+    color: #8197a4;
+    box-shadow: 0px 0px 7px 1px whitesmoke;
+}
+#second{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 #second b{
     position: absolute;
     left: 5%;
-    top: 90%;
-    font-size: 54px;
+    top: 95%;
+    font-size: 50px;
 }
 #second strong{
     position: absolute;
     left: 5%;
-    top: 99%;
-    font-size: 54px;
+    top: 103%;
+    font-size: 50px;
 }
 #second span{
     position: absolute;
     left: 5%;
-    top: 115%;
-    font-size: x-large;
+    top: 119%;
+    font-size: 21px;
 }
-#second .box{
+#second .box a{
     margin: 0px;
     padding: 0px;
     height: 60px;
-    width: 100px;
+    width: 115px;
     background-color: white;
     position: absolute;
     left: 5%;
-    top: 125%;
+    top: 129%;
     color: black;
     border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: large;
+}
+#second .box a:hover{
+    color: #8197a4;
+    box-shadow: 0px 0px 7px 1px whitesmoke;
+}
+#second img{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 708px;
+    aspect-ratio: auto 708 / 331;
+    height: 331px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    min-height: 100vh;
+    width: 700px;
+    position: absolute;
+    right: 0%;
+    
+}
+#third img{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 708px;
+    aspect-ratio: auto 708 / 331;
+    height: 331px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 700px;
+    height: 350px;
+}
+#third{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 95%;
+    right: 0%;
+}
+.c3{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    height: 560px;
+    background-color: rgb(2, 2, 14);
+}
+.c3 b{
+    position: absolute;
+    left: 5%;
+    font-size: 54px;
+    top: 160%;
+}
+.c3 strong{
+    position: absolute;
+    left: 5%;
+    font-size: 54px;
+    top: 170%;
+}
+.c3 span{
+    position: absolute;
+    left: 5%;
+    font-size: 54px;
+    top: 180%;
+}
+.c3 .img1 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 35%;
+    top: 160%;
+}
+.c3 .img2 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 260px;
+    top: 160%;
+}
+.c3 .img3 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 48px;
+    top: 160%;
+}
+.c3 .img4 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 35%;
+    top: 183%;
+}
+.c3 .img5 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 260px;
+    top: 183%;
+}
+.c3 .img6 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 48px;
+    top: 183%;
+}
+.c3 .img7 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 35%;
+    top: 206%;
+}
+.c3 .img8 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 260px;
+    top: 206%;
+}
+.c3 .img9 img{
+    border-radius: 10px;
+    height: 140px;
+    position: absolute;
+    right: 48px;
+    top: 206%;
+}
+.c3 section{
+    position: absolute;
+    left: 5%;
+    top: 195%;
+    font-size: x-large;
+}
+.c4{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c4 a{
+    font-size: large;
+    color: #79b8f3;
+}
+.c4 p{
+    position: absolute;
+    top: 1615px;
+    left: 38%;
+    color: #8197a4;
+}
+.c4 img{
+    position: absolute;
+    top: 1540px;
+}
+.c4 a:hover{
+    color: #90dffe;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+}
+.c3 img:hover{
+    box-shadow: 0px 0px 7px 1px whitesmoke;
 }
