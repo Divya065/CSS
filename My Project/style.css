@@ -50,14 +50,6 @@
 .class:hover{
     background-color: rgb(51, 152, 247);
 }
-/* .c1 nav .item:hover{
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 a{
     color: white;
     font-size: small;
@@ -172,7 +164,7 @@ a{
     display: block;
     -webkit-user-select: none;
     margin: auto;
-    cursor: zoom-in;
+    cursor: default;
     background-color: hsl(0, 0%, 90%);
     transition: background-color 300ms;
     width: 708px;
@@ -184,13 +176,15 @@ a{
     width: 700px;
     position: absolute;
     right: 0%;
-    
+}
+#second img:hover{
+    cursor: default;
 }
 #third img{
     display: block;
     -webkit-user-select: none;
     margin: auto;
-    cursor: zoom-in;
+    cursor: default;
     background-color: hsl(0, 0%, 90%);
     transition: background-color 300ms;
     width: 708px;
@@ -200,6 +194,9 @@ a{
     overflow: clip;
     width: 700px;
     height: 350px;
+}
+#third img:hover{
+    cursor: default;
 }
 #third{
     margin: 0px;
