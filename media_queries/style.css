@@ -1,0 +1,45 @@
+/* @media only screen and (max-width:600px){
+    body{
+        background-color:aqua;
+    }
+} */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+.class1{
+    height: 10vh;
+    background-color: black;
+}
+.class2{
+    height: 80vh;
+    background-color: gray;
+}
+.class3{
+    height: 10vh;
+    background-color: black;
+}
+@media only screen and(min-width:768px){
+    .class1{width: 8.33%;}
+    .class3{width: 16.66%;}
+}
+.subs{
+    display: flex;
+}
+.sub{
+    margin: 20px;
+    height: 30px;
+    width: 160px;
+    background-color: white;
+    border-radius: 8px;
+}
+@media only screen and(max-width:600px){
+    div.one{
+        display: none;
+    }
+}
+@media only screen and(max-width:600px){
+    div.one{
+        background-color: black;
+    }
+}

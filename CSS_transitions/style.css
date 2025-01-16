@@ -1,0 +1,80 @@
+/* .class{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s,height 4s;
+} */
+/* .class:hover{
+    width: 300px;
+} */
+/* .class:hover{
+    height: 300px;
+    width: 300px;
+}
+.class1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: height 3s;
+    margin: 15px;
+    transition-timing-function: linear;
+}
+.class2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease;
+    transition: height 3s;
+    margin: 15px;
+}
+.class3{
+    transition: height 3s;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-in;
+}
+.class4{
+    transition: height 3s;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-out;
+}
+.class5{
+    transition: height 3s;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-in-out;
+}
+.class1:hover{
+    height: 300px;
+}
+.class2:hover{
+    height: 300px;
+}
+.class3:hover{
+    height: 300px;
+}
+.class4:hover{
+    height: 300px;
+}
+.class5:hover{
+    height: 300px;
+} */
+.class{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s,height 2s,transform 2s;
+}
+.class:hover{
+    height: 300px;
+    width: 300px;
+}
